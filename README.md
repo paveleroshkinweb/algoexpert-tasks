@@ -1,1 +1,1 @@
-# Repository with all tasks solved in python from [a link](https://www.algoexpert.io/product)
+# Repository with all tasks solved in python from [algoexpert](https://www.algoexpert.io/product)
