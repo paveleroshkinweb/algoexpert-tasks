@@ -7,7 +7,6 @@ def branchSums(root):
     stack = [(root, 0)]
     branch_sums = []
     while stack:
-        print(len(stack))
         node, current_sum = stack.pop()
         
         if node.left is None and node.right is None:
