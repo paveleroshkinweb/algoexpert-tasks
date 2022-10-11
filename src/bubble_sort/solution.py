@@ -1,3 +1,5 @@
+# Time complexity - O(n**2)
+# Space complexity - O(1)
 def bubbleSort(array):
     for i in range(1, len(array)):
         swap = False
