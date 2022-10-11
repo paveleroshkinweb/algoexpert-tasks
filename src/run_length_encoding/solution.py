@@ -11,7 +11,8 @@ def combine_chunks(chunks):
 			encoded_string += str(rest) + char
 	return encoded_string
 
-
+# Time complexity - O(n)
+# Space complexity - O(n)
 def runLengthEncoding(string):
 	idx = 0
 	chunks = []
