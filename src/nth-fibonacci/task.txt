@@ -1,0 +1,2 @@
+The nth number is the sum of the (n - 1)th
+and (n - 2)th numbers. Write a function that takes in an integer and returns the nth Fibonacci number.
