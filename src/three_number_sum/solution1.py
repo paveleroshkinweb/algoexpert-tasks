@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 # Time complexity - O(n**2 + n + klogk) -> O(n**2)
-# Space complexity - O(n), where k - number of teams
+# Space complexity - O(n)
 def threeNumberSum(array, targetSum):
     cache = defaultdict(lambda: -1)
     triplets = []
