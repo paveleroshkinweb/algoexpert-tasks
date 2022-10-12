@@ -1,0 +1,2 @@
+Write a function that takes in a Binary Search Tree (BST) and a positive
+integer
