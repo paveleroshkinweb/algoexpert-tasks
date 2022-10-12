@@ -1,0 +1,4 @@
+Given an array of integers between 1 and n inclusive, where n is the length of array.
+In other words, out of all the integers that might occur more than once in the
+input array, your function should return the one whose first duplicate value
+has the minimum index.
