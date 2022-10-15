@@ -1,0 +1,9 @@
+You're given an integer k representing a number of workers and an
+array of positive integers representing durations of tasks that must be
+completed by the workers. Specifically, each worker must complete two unique
+tasks and can only work on one task at a time. The number of tasks will always
+be equal to 2k.
+Write a function that returns the optimal assignment of tasks to each worker
+such that the tasks are completed as fast as possible. Your function should
+return a list of pairs, where each pair stores the indices of the tasks that
+should be completed by one worker.
