@@ -1,0 +1,6 @@
+You're given two Linked Lists of potentially unequal length. Each Linked List
+represents a non-negative integer, where each node in the Linked List is a
+digit of that integer, and the first node in each Linked List always
+represents the least significant digit of the integer. Write a function that
+returns the head of a new Linked List that represents the sum of the integers
+represented by the two input Linked Lists.
