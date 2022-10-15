@@ -1,0 +1,1 @@
+Write a function that takes in the head of a Singly Linked List and an integer
