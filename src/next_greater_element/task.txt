@@ -1,0 +1,4 @@
+Write a function that takes in an array of integers and returns a new array
+containing, at each index, the next element in the input array that's greater
+than the element at that index in the input array.
+Additionally, your function should treat the input array as a circular
