@@ -1,0 +1,1 @@
+Write a SuffixTrie class for a Suffix-Trie-like data structure.
