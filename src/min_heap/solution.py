@@ -4,13 +4,15 @@ class MinHeap:
         self.buildHeap(array)
 
     def buildHeap(self, array):
-        for el in array:
-            self.insert(el)
+        self.heap = array
+        parent_idx = (len(array) - 2) // 2
+        for idx in reversed(range(parent_idx + 1)):
+            self._siftDown(idx)
         return self.heap
 
-    def siftDown(self):
+    def _siftDown(self, idx):
         if len(self.heap) > 1:
-            index = 0
+            index = idx
             child1, child2 = self.children_value(index)
             while child1 is not None:
                 if child2 is None:
@@ -27,6 +29,9 @@ class MinHeap:
                 self.swap(index, child_index)
                 index = child_index
                 child1, child2 = self.children_value(index)
+
+    def siftDown(self):
+        self._siftDown(0)
                 
 
     def siftUp(self):
@@ -77,4 +82,3 @@ class MinHeap:
     def get_or_none(self, index):
         if index < len(self.heap):
             return self.heap[index]
-	
