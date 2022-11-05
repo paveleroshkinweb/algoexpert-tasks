@@ -1,3 +1,5 @@
+# Time complexity - O(n)
+# Space complexity - O(1)
 def minRewards(scores):
     assert len(scores) > 0
     if len(scores) == 1:
