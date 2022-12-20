@@ -1,0 +1,4 @@
+Zero sum subarray
+
+You're given a list of integers. Write a function that
+returns a boolean representing whether there exists a zero-sum subarray of
